@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gray-histogram"
+version = "0.1.0"
+description = ""
+authors = ["Takahashi Katsuyuki <takahashi.k@world-wing.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.8.0.76"
+matplotlib = "^3.8.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
