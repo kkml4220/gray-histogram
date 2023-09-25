@@ -18,6 +18,6 @@ poetry install
 コマンドライン引数で画像へのパスを指定してください
 
 ```bash
-poetry run main.py images/lena.png
-poetry run main.py path/to/image
+poetry run python main.py images/lena.png
+poetry run python main.py path/to/image
 ```
